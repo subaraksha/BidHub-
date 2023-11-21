@@ -9,7 +9,7 @@ import { AuthProvider } from "./context/auth";
 import { SearchProvider } from "./context/search";
 import { CartProvider } from "./context/cart";
 import "antd/dist/reset.css";
-axios.defaults.baseURL = "http://localhost:3005/api/v1";
+axios.defaults.baseURL = "https://ruby-embarrassed-hippopotamus.cyclic.app/api/v1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
